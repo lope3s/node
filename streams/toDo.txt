@@ -1,0 +1,9 @@
+[x] - difference between pipe & pipline;
+    pipe: If the Readable stream emits an error during processing, the Writable destination is not closed automatically. If an error occurs, it will be necessary to manually close each stream in order to prevent memory leaks.
+    pipeline: here you don't need to handle those errors, and this implementation abstracts away the handling of backpressure and backpressure-related errors;
+[x] - using promises inside streams;
+    Probably using async generators/iterators;
+
+exercices:
+[] - create a server to populate a contacts csv, that works only with streams;
+[] - create a video streams server, like youtube, and a consuming client;
