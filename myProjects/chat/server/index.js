@@ -1,6 +1,5 @@
 import { createServer } from "node:net";
 import { createHash } from "node:crypto";
-import { argv0 } from "node:process";
 
 // Chat:
 // The goal of this project is to:
