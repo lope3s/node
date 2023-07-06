@@ -4,7 +4,7 @@ const personalizedEvent = { event: "test" };
 
 socket.addEventListener("open", (event) => {
   console.log("socket connected");
-  socket.send(JSON.stringify(personalizedEvent));
+  socket.send("hello, world");
 });
 
 socket.addEventListener("message", (message) => {
